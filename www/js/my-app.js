@@ -62,7 +62,11 @@ var app = new Framework7({
             on: {
                 pageInit: function (event, page) {
 					
-						//CONTEÚDO DA PÁGINA PRINCIPAL AQUI
+					setTimeout(function(){ 
+				
+                        app.dialog.alert('<img src="img/swipe-left.gif" style="max-width:100%">','');
+        
+                        }, 500);
 		
 				}	
                }
